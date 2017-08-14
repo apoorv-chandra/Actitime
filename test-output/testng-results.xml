@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Firefox launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to test url]]>
+    </line>
+    <line>
+      <![CDATA[Home page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[Home page url is verified]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52432" started-at="2017-08-14T06:30:45Z" finished-at="2017-08-14T06:31:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52432" started-at="2017-08-14T06:30:45Z" finished-at="2017-08-14T06:31:38Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@23ceabc1]" name="preCondition" is-config="true" duration-ms="31703" started-at="2017-08-14T12:00:45Z" finished-at="2017-08-14T12:01:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to test url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.actitime.scripts.LoginTest@23ceabc1]" name="loginTest" duration-ms="20571" started-at="2017-08-14T12:01:17Z" finished-at="2017-08-14T12:01:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[Home page url is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@23ceabc1]" name="postCondition" is-config="true" duration-ms="20" started-at="2017-08-14T12:01:38Z" finished-at="2017-08-14T12:01:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.actitime.scripts.LoginTest@23ceabc1] output=Home page title is verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
