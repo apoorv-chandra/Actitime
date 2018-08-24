@@ -14,7 +14,7 @@ public class EnterTimeTrackPage {
 	}
 	public void verifyHPUrl(WebDriver driver){
 		String actUrl = driver.getCurrentUrl();
-		String expUrl="http://desktop-07c3hrb:1500/user/submit_tt.do";
+		String expUrl="http://its-me-apoorv:1500/user/submit_tt.do";
 		Assert.assertEquals(actUrl, expUrl,
 				"Home page turl is not verified");
 		Reporter.log("Home page url is verified", true);

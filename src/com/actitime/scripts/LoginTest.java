@@ -11,6 +11,7 @@ import com.actitime.pageobjects.LoginPage;
 public class LoginTest extends BaseLib{
 	@Test(priority=2)
 	public void loginTest(){
+		//login page object creation
 		LoginPage lp=new LoginPage(driver);
 		String username = ExcelUtilities.readData("Sheet1", 1, 1);
 		String password = ExcelUtilities.readData("Sheet1", 1, 2);
@@ -20,6 +21,7 @@ public class LoginTest extends BaseLib{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		//Enter time track page object created i.e. dashboard
 		EnterTimeTrackPage ettp=new EnterTimeTrackPage();
 		ettp.verifyHPTitle(driver);
 		ettp.verifyHPUrl(driver);		
